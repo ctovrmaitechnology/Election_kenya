@@ -1,0 +1,45 @@
+
+
+:root {
+  /* Colors */
+  --primary:        #1d4ed8; 
+  --primary-light:  #eff6ff;
+  --secondary:      #0ea5e9; 
+  --secondary-light:#e0f2fe;
+  --success:        #10b981;
+  --success-light:  #d1fae5;
+  --warning:        #f59e0b;
+  --warning-light:  #fef3c7;
+  --danger:         #ef4444;
+  --danger-light:   #fee2e2;
+  --text-main:      #1e293b;
+  --text-muted:     #64748b;
+  --bg-main:        #f8fafc; 
+  --bg-card:        #ffffff;
+  --border-color:   #e2e8f0;
+  --sidebar-bg:     #0f172a; 
+  --sidebar-active: linear-gradient(90deg, #2563eb, #1d4ed8);
+  --sidebar-text:   #cbd5e1;
+  --sidebar-text-active: #ffffff;
+
+  /* Typography */
+  --font-sans:      'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Fluid Typography (clamp(min, vw, max)) */
+  --text-xs: clamp(0.6875rem, 0.65rem + 0.15vw, 0.75rem);   /* 11px to 12px */
+  --text-sm: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);      /* 12px to 14px */
+  --text-base: clamp(0.875rem, 0.8rem + 0.3vw, 1rem);       /* 14px to 16px */
+  --text-lg: clamp(1rem, 0.9rem + 0.4vw, 1.125rem);         /* 16px to 18px */
+  --text-xl: clamp(1.125rem, 1rem + 0.5vw, 1.25rem);        /* 18px to 20px */
+  --text-2xl: clamp(1.25rem, 1.1rem + 0.8vw, 1.5rem);       /* 20px to 24px */
+  --text-3xl: clamp(1.5rem, 1.3rem + 1vw, 1.875rem);        /* 24px to 30px */
+  --text-4xl: clamp(1.875rem, 1.6rem + 1.2vw, 2.25rem);     /* 30px to 36px */
+
+  /* Fluid Spacing */
+  --space-xs: clamp(0.25rem, 0.2rem + 0.25vw, 0.5rem);      /* 4px to 8px */
+  --space-sm: clamp(0.5rem, 0.45rem + 0.25vw, 0.75rem);     /* 8px to 12px */
+  --space-md: clamp(0.75rem, 0.65rem + 0.5vw, 1rem);        /* 12px to 16px */
+  --space-lg: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);          /* 16px to 24px */
+  --space-xl: clamp(1.5rem, 1.3rem + 1vw, 2rem);            /* 24px to 32px */
+  --space-2xl: clamp(2rem, 1.7rem + 1.5vw, 3rem);           /* 32px to 48px */
+}
